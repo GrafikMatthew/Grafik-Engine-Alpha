@@ -1,0 +1,5 @@
+@import url("grafik.css");
+
+.grafik-metabox table { border-collapse: separate; border-spacing: 10px; width: 100%; }
+.grafik-metabox td, .grafik-metabox th { vertical-align: top; }
+.grafik-metabox textarea { width: 100%; height: 200px; resize: none; }

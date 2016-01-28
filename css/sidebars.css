@@ -1,0 +1,19 @@
+@import url("grafik.css");
+
+#grafik-admin-sidebars p,
+#grafik-admin-sidebars ul {
+	margin-bottom: 10px;
+}
+#grafik-admin-sidebars-delete-inuse ul {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+#grafik-admin-sidebars table { border-collapse: separate; border-spacing: 10px; width: 100%; }
+#grafik-admin-sidebars th,
+#grafik-admin-sidebars td { text-align: left; vertical-align: top; }
+#grafik-admin-sidebars th { width: 200px; }
+#grafik-admin-sidebars label,
+#grafik-admin-sidebars input[type=text] { display: inline-block; width: 100%; height: 30px; }
+#grafik-admin-sidebars label { line-height: 30px; }
+#grafik-admin-sidebars textarea { vertical-align: top; width: 100%; height: 200px; resize: none; }

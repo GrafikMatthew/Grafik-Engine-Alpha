@@ -1,0 +1,27 @@
+.theme-header-global-top-left, .theme-header-global-middle-left, .theme-header-global-bottom-left,
+.theme-header-type-top-left, .theme-header-type-middle-left, .theme-header-type-bottom-left,
+.theme-header-meta-top-left, .theme-header-meta-middle-left, .theme-header-meta-bottom-left,
+.theme-content-meta-middle-left, .theme-content-meta-middle-main, .theme-content-meta-middle-right,
+.theme-footer-global-top-left, .theme-footer-global-middle-left, .theme-footer-global-bottom-left,
+.theme-footer-type-top-left, .theme-footer-type-middle-left, .theme-footer-type-bottom-left,
+.theme-footer-meta-top-left, .theme-footer-meta-middle-left, .theme-footer-meta-bottom-left
+{
+	float: left;
+	clear: none;
+}
+
+.theme-header-global-top-right, .theme-header-global-middle-right, .theme-header-global-bottom-right,
+.theme-header-type-top-right, .theme-header-type-middle-right, .theme-header-type-bottom-right,
+.theme-header-meta-top-right, .theme-header-meta-middle-right, .theme-header-meta-bottom-right,
+.theme-footer-global-top-right, .theme-footer-global-middle-right, .theme-footer-global-bottom-right,
+.theme-footer-type-top-right, .theme-footer-type-middle-right, .theme-footer-type-bottom-right,
+.theme-footer-meta-top-right, .theme-footer-meta-middle-right, .theme-footer-meta-bottom-right
+{
+	float: right;
+	clear: none;
+}
+
+.interior
+{
+	overflow: auto;
+}

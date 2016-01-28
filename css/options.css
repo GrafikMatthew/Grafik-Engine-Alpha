@@ -1,0 +1,85 @@
+@import url("grafik.css");
+
+.grafik-theme-options {
+	padding: 20px 20px 0 100px;
+	background: url(../img/options.png) no-repeat 100% 0%;
+}
+.grafik-theme-options .active {
+	background: #fff;
+}
+.grafik-theme-options * {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.grafik-theme-options h1 {
+	margin: 0 0 20px -100px;
+	line-height: normal;
+}
+.grafik-theme-options h2 {
+	margin: 0 0 10px 0;
+	line-height: normal;
+}
+.grafik-theme-options table {
+	margin: 0 -10px;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+.grafik-theme-options textarea {
+	width: 100%;
+	height: 100px;
+	resize: none;
+}
+.grafik-theme-options-hnav {
+	position: relative;
+	z-index: 2;
+}
+.grafik-theme-options-hnav ul {
+	list-style-type: none;
+	overflow: auto;
+}
+.grafik-theme-options-hnav li {
+	margin-left: 5px;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-radius: 2px 2px 0 0;
+	background: rgba(0,0,0,0.05);
+}
+.grafik-theme-options-hnav a {
+	display: inline-block;
+	padding: 4px 9px 5px 9px;
+}
+.grafik-theme-options-hnav-content {
+	margin-top: -1px;
+	border: 1px solid #ccc;
+	padding: 19px;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+.grafik-theme-options-vnav {
+	position: absolute;
+	top: 0px;
+	left: -100px;
+}
+.grafik-theme-options-vnav ul {
+	width: 100px;
+	list-style-type: none;
+}
+.grafik-theme-options-vnav li {
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-right: none;
+	border-radius: 2px 0 0 2px;
+	background: rgba(0,0,0,0.05);
+}
+.grafik-theme-options-vnav a {
+	display: inline-block;
+	width: 100px;
+	padding: 4px 10px 4px 9px;
+}
